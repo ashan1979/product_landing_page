@@ -143,3 +143,28 @@ html, body {
     font-weight: bolder;
     letter-spacing: 4px;
 }
+
+.left-sidebar p {
+    font-family: helvetica;
+    font-weight: lighter;
+    line-height: 24px;
+    color: grey;
+}
+
+#price {
+    color: #000;
+}
+
+.media {
+    position: absolute;
+    bottom: 40px;
+    right: 60px;
+}
+
+.media ul li {
+    display: inline-block;
+}
+
+.media ul li:not(:last-child) {
+    padding-right: 40px;
+}
